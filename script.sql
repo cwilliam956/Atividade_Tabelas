@@ -7,7 +7,7 @@ CREATE TABLE Clientes (
   Nome VARCHAR(45) NOT NULL,
   CPF VARCHAR(45) NOT NULL UNIQUE,
   TelefoneCelular VARCHAR(45) NOT NULL UNIQUE,
-  Cidade VARCHAR(45) DEFAULT 'Itapira'
+  Cidade VARCHAR(45) DEFAULT 'Campinas'
 );
 
 CREATE TABLE Carro (
